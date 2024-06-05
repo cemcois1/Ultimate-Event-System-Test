@@ -599,6 +599,7 @@ GameObject:
   - component: {fileID: 818328722}
   - component: {fileID: 818328723}
   - component: {fileID: 818328724}
+  - component: {fileID: 818328726}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -735,6 +736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rigidbody: {fileID: 818328722}
+  playerInputHandler: {fileID: 818328726}
 --- !u!114 &818328724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,6 +750,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onCoinCollected: {fileID: 11400000, guid: 678255dd8cbabd044a3359fe565d8123, type: 2}
+--- !u!114 &818328726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818328717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6eeb452d2e46c9a6f06594ef6122a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
